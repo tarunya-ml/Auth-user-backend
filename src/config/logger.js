@@ -15,12 +15,12 @@ const logger = createLogger({
         logFormat
     ),
     transports: [
-        // ✅ All logs → app.log
+        //  All logs → app.log
         new transports.File({
             filename: path.join(__dirname, "../logs/app.log"),
         }),
 
-        // ✅ Error logs → error.log
+        //  Error logs → error.log
         new transports.File({
             filename: path.join(__dirname, "../logs/error.log"),
             level: "error",
