@@ -257,7 +257,7 @@ POST /user/login (email + password)
 POST /user/login (email or phone only)
     → generate 6-digit OTP
     → hash OTP with SHA-256 + OTP_SECRET
-    → store in Redis with 5min TTL
+    → store in Redis with 5min TTL with rate limiting(otp attempts)
     → send OTP via email/SMS
 
 POST /user/verify-otp (email/phone + otp)
