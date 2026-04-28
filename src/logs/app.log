@@ -1,0 +1,52 @@
+[2026-04-29 02:50:12] INFO: login attempt with Email and Otp abhi@gmail.com
+[2026-04-29 02:50:12] INFO: Otp sent to user on abhi@gmail.com
+[2026-04-29 02:50:12] INFO: POST /user/login-user 200 41 - 173.480 ms
+[2026-04-29 02:52:44] INFO: login attempt with Email and Otp abhi@gmail.com
+[2026-04-29 02:52:44] INFO: Otp sent to user on abhi@gmail.com
+[2026-04-29 02:52:44] INFO: POST /user/login-user 200 41 - 119.827 ms
+[2026-04-29 02:53:10] INFO: verify user otp via email 
+[2026-04-29 02:53:10] INFO: otp verified successfully for: abhi@gmail.com
+[2026-04-29 02:53:10] INFO: Token generated successfully
+[2026-04-29 02:53:10] INFO: user login successfully 69e6f8d9495d99692433baca
+[2026-04-29 02:53:10] INFO: POST /user/verify-otp 200 52 - 174.004 ms
+[2026-04-29 03:02:04] INFO: server is running on 4000
+[2026-04-29 03:02:25] INFO: server is running on 4000
+[2026-04-29 03:02:31] INFO: server is running on 4000
+[2026-04-29 03:02:36] INFO: server is running on 4000
+[2026-04-29 03:03:03] INFO: server is running on 4000
+[2026-04-29 03:03:28] INFO: server is running on 4000
+[2026-04-29 03:03:58] INFO: server is running on 4000
+[2026-04-29 03:06:31] INFO: Database connected successfully
+[2026-04-29 03:06:31] INFO: server is running on 4000
+[2026-04-29 03:06:31] INFO: Redis connected successfully!
+[2026-04-29 03:06:43] INFO: Database connected successfully
+[2026-04-29 03:06:43] INFO: server is running on 4000
+[2026-04-29 03:06:43] INFO: Redis connected successfully!
+[2026-04-29 03:06:49] INFO: Database connected successfully
+[2026-04-29 03:06:49] INFO: server is running on 4000
+[2026-04-29 03:06:49] INFO: Redis connected successfully!
+[2026-04-29 03:07:29] ERROR: TypeError: mongoose.connec is not a function
+    at connectDB (E:\login_backend\src\config\database.js:6:18)
+    at startServer (E:\login_backend\src\app.js:35:15)
+    at Object.<anonymous> (E:\login_backend\server.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+    at Module._load (node:internal/modules/cjs/loader:1335:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+[2026-04-29 03:07:29] INFO: server is running on 4000
+[2026-04-29 03:07:29] INFO: Redis connected successfully!
+[2026-04-29 03:07:50] INFO: Database connected successfully
+[2026-04-29 03:07:50] INFO: server is running on 4000
+[2026-04-29 03:07:51] INFO: Redis connected successfully!
+[2026-04-29 03:08:43] INFO: Database connected successfully
+[2026-04-29 03:08:43] INFO: server is running on 4000
+[2026-04-29 03:08:43] INFO: Redis connected successfully!
+[2026-04-29 03:08:57] INFO: Database connected successfully
+[2026-04-29 03:08:57] INFO: server is running on 4000
+[2026-04-29 03:08:57] INFO: Redis connected successfully!
+[2026-04-29 03:10:09] INFO: POST /user/register-user 201 66 - 240.016 ms
+[2026-04-29 03:10:15] INFO: POST /user/register-user 409 56 - 84.610 ms
+[2026-04-29 03:10:31] INFO: POST /user/register-user 201 65 - 218.898 ms
