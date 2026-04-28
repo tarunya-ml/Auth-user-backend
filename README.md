@@ -103,7 +103,6 @@ REDIS_PASSWORD=your_redis_password
 OTP_SECRET=your_otp_secret_here
 ```
 
-> ⚠️ Never commit your `.env` file. Add it to `.gitignore`.
 
 ---
 
@@ -128,7 +127,7 @@ POST /user/register
   "name": "Tarun Chaudhary",
   "email": "tarun@gmail.com",
   "phone": "8757509484",
-  "password": "Tarun9633"
+  "password": "tarunya87"
 }
 ```
 
@@ -376,7 +375,3 @@ NODE_ENV=development
 **Tarun Chaudhary**
 
 ---
-
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
